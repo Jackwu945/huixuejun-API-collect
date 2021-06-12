@@ -11,7 +11,7 @@
 | ----------- | ---- | ---------------- |  ---------------- |
 | token | str  | 当前登录的token(通讯适配符)                | [token获取方式详见引言部分](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)        |
 | task_id    | str  | 密码     | 任务id |
-| subid    | str  | 1     | 必要(存疑)|
+| subid    | str  | 子任务数     | 从1计起|
 
 **json回复：**  
 根对象:  
@@ -28,7 +28,7 @@ data对象为所有作品的集合(字典);其中每个字典包含的内容:
 | t_taskmng_id | num  | 不明确,应该也是作品id |  |
 | task_id | num  | 任务id |  |
 | student_id | num  | 类似于用户uid |  |
-| sub_no | num  | 1 |  |
+| sub_no | num  | 子任务数 |  |
 | content | num  | 用户在研讨中的发言 |  |
 | content | list  | 用户上传的图片 | list中元素视用户上传图片数为定 |
 | resource | str  | 未知 |  |
