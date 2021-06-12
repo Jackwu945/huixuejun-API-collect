@@ -3,7 +3,7 @@
 ****
 ### 普遍规律与特殊规律
 大部分情况下,该网站的api接口是https://hs.huixuejun.com/hs98/public/?service= 后接不同services的名称(如App.Live.Stulives)  
-* 登录采用了另外的接口,[详见] (https://github.com/Jackwu945/huixuejun-API-collect/blob/main/login/login.md)
+* 登录采用了另外的接口,[详见登录介绍](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/login/login.md)
 ****
 # 注意事项
 ***1.Token(通讯适配符)***
