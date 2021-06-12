@@ -28,7 +28,7 @@
 **Eg:**
 用户名为114514 密码为mingh  
 ```shell
-curl 'https://passport.bilibili.com/web/login/v2' \
+curl 'https://s.huixuejun.com/Home/AjaxLogin  ' \
 --data-urlencode 'usernm=114514' \
 --data-urlencode 'passwd=mingh' \
 ```
