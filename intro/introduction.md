@@ -1,10 +1,11 @@
 # 引言  
-## 慧学君的观察日记
+### 慧学君的观察日记
 ****
 ### 普遍规律与特殊规律
 大部分情况下,该网站的api接口是https://hs.huixuejun.com/hs98/public/?service= 后接不同services的名称(如App.Live.Stulives)  
 * 登录采用了另外的接口,[详见] (https://github.com/Jackwu945/huixuejun-API-collect/blob/main/login/login.md)
 ****
+# 注意事项
 ***1.Token(通讯适配符)***
 + 大部分情况下post中需要传入一个token(推测是csrf),该token需要带cookie在网页源代码中获取.  
 
