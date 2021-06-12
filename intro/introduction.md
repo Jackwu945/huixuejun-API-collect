@@ -9,9 +9,11 @@
 ***1.Token(通讯适配符)***
 + 大部分情况下post中需要传入一个token(棺方说法是`通讯适配符`,但我推测其起到`csrf`的作用),该token需要带cookie在网页源代码中获取.  
 
-以python为例,代码如下:  
-  `token=requests.get('https://s.huixuejun.com/Lessons/Index?task=1&sub=401',cookies=eval(savecookies)).text  
-  token=re.findall(r'token = "(.*)";', str(token))[0]`    
+示例:以python为例,代码如下:  
+```python
+token=requests.get('https://s.huixuejun.com/Lessons/Index?task=1&sub=401',cookies=eval(savecookies)).text
+token=re.findall(r'token = "(.*)";', str(token))[0]
+```
 其中token变量放在字典中就可以post了.  
 
 + 需要注意该token每次登陆都会发生变化,传入无效的或者过时的token后api会提示  
