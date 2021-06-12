@@ -10,7 +10,7 @@
 | 参数名      | 类型 | 内容             |  备注             |
 | ----------- | ---- | ---------------- |  ---------------- |
 | token | str  | 当前登录的token(通讯适配符)                | [token获取方式详见引言部分](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)        |
-| task_id    | str  | 密码     | 任务id |
+| task_id    | str  | 任务id     | 任务id |
 | subid    | str  | 子任务数     | 从1计起|
 
 **json回复：**  
