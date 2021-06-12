@@ -7,7 +7,7 @@
 ****
 # 注意事项
 ***1.Token(通讯适配符)***
-+ 大部分情况下post中需要传入一个token(棺方说法是`通讯适配符`,但我推测是csrf),该token需要带cookie在网页源代码中获取.  
++ 大部分情况下post中需要传入一个token(棺方说法是`通讯适配符`,但我推测其起到`csrf`的作用),该token需要带cookie在网页源代码中获取.  
 
 以python为例,代码如下:  
   `token=requests.get('https://s.huixuejun.com/Lessons/Index?task=1&sub=401',cookies=eval(savecookies)).text  
