@@ -3,7 +3,7 @@
 + 一般情况下,cookie中的值会在完成登录后通过http头中`set-cookie`写入.  
 + 在python的requests库中,完成登录会在 `请求变量.cookie`中  
 ***
-(以下排版参考了@SocialSisterYi的[api文档] (https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/login/login_action/password.md)
+以下排版参考了 @SocialSisterYi 的[api文档] (https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/login/login_action/password.md
 # 使用账号密码登录
 >https://s.huixuejun.com/Home/AjaxLogin  
 
