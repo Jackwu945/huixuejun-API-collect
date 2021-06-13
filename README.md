@@ -1,5 +1,8 @@
+<p align="center">
+    <img src="https://i.loli.net/2021/06/12/y4jqokXQEvRSVmx.png" width="250" height="200">
+</p>
+
 # Huixuejun-API-collect
-![logo.png](https://i.loli.net/2021/06/12/y4jqokXQEvRSVmx.png)
 
 ## 本项目根据作者实际情况收集了一些慧学君的api接口,主要由f12抓包实现.
 ***********
