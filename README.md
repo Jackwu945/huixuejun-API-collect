@@ -15,4 +15,7 @@
 4. [研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
 5. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md) ( *施工中* )  
 6. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md)
-7. 更多方法正在添加中.....
+7. [直播信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/liveinfo.md) ( *木有授权了,哪天又上网课了再研究* )  
+8. [直播回放科目目录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livesubject.md)  
+9. [回放下载&信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livereplay.md)
+10. 更多方法正在添加中.....
