@@ -14,7 +14,7 @@
 以下是目录  
 1. [引言,有关慧学君api的一些通用规律和注意事项](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)  
 2. [登录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/login/login.md)  
-3. [上传图片的公共模块](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/public/upload.md)
+3. [上传图片的公共接口](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/public/upload.md)
 4. [资源](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/resource/res.md)
 5. [查看研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
 6. [提交研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discusssend.md)
