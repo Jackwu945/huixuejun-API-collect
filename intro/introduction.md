@@ -22,4 +22,8 @@ token=re.findall(r'token = "(.*)";', str(token))[0]
 
 ***2.编码***  
 + 慧学君的json回复中使用了unicode编码,需要将重新编码成`unicode-escape`才能看到正常中文内容.
+
+***3.taskid***  
++ 慧学君的资源\随测\研讨等无一例外的使用了taskid.
++ 本文档除特殊说明外,id代表的即为taskid
 ****
