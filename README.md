@@ -15,13 +15,14 @@
 1. [引言,有关慧学君api的一些通用规律和注意事项](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)  
 2. [登录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/login/login.md)  
 3. [资源](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/resource/res.md)
-4. [研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
+4. [查看研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
 5. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md) ( *施工中* )  
 6. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md)
 7. [直播信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/liveinfo.md) ( *木有授权了,哪天又上网课了再研究* )  
 8. [直播回放科目目录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livesubject.md)  
 9. [回放下载&信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livereplay.md)
-10. 更多方法正在添加中.....
+10. [小工具:基于头像上传接口的自定义头像](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/littlekit/headedit.md)
+11. 更多方法正在添加中.....
 ****  
 
 **十分感谢 @SocialSisterYi 的 [api文档](https://github.com/SocialSisterYi/bilibili-API-collect) 给予我的灵感和强硬的技术支持,可以说没有他的文档,就没有如今写该文档的我!**  
