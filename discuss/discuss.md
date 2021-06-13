@@ -46,7 +46,7 @@ curl 'https://hs.huixuejun.com/hs98/public/?service=App.Task.GetStuDisscuss' \
 --data-urlencode 'taskid=13852' \
 --data-urlencode 'subid=1' \
 ```
-回复:
+回复(鉴于涉及真名,故只显示部分且稍作修改):
 ```json
  {"ret":200,"data":[{"id":"6710","t_taskmng_id":"1340881","task_id":"13852","student_id":"3001988","sub_no":"1","content":"三分钟写成的屑作","pics":["https:\/\/hs.huixuejun.com\/hs98\/public\/source\/discuss\/20210609\/60c07ea282071.jpeg"],"resource":[],"create_time":"2021-06-09 16:41:36","delete_flag":"1","picsrc":"https:\/\/hs.huixuejun.com\/hs98\/public\/image\/head\/userhead10.png","realname":"jackwu","zan":["0","0","0"],"comment":[],"Spot":0}
 ```
