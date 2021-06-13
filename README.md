@@ -17,13 +17,14 @@
 3. [上传图片的公共模块](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/public/upload.md)
 4. [资源](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/resource/res.md)
 5. [查看研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
-6. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md) ( *施工中* )  
-7. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md) ( *有大问题* )  
-8. [直播信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/liveinfo.md) ( *木有授权了,哪天又上网课了再研究* )  
-9. [直播回放科目目录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livesubject.md)  
-10. [回放下载&信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livereplay.md)
-11. [小工具:基于头像上传接口的自定义头像](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/littlekit/headedit.md)
-12. 更多方法正在添加中.....
+6. [提交研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discusssend.md)
+7. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md) ( *施工中* )  
+8. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md) ( *有大问题* )  
+9. [直播信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/liveinfo.md) ( *木有授权了,哪天又上网课了再研究* )  
+10. [直播回放科目目录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livesubject.md)  
+11. [回放下载&信息](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/live/livereplay.md)
+12. [小工具:基于头像上传接口的自定义头像](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/littlekit/headedit.md)
+13. 更多方法正在添加中.....
 ****  
 
 **十分感谢 @SocialSisterYi 的 [api文档](https://github.com/SocialSisterYi/bilibili-API-collect) 给予我的灵感和强硬的技术支持,可以说没有他的文档,就没有如今写该文档的我!**  
