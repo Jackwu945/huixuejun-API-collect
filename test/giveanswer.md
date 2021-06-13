@@ -33,13 +33,11 @@ data对象
 
  
 **Eg:**
-要查看id为13953的研讨  
+工事中
 ```shell
-curl 'https://hs.huixuejun.com/hs99/public/?service=App.Task.GetParseLogInfo' \
---data-urlencode 'token=xxx' \
---data-urlencode 'taskid=13953' \
+
 ```
 回复:
 ```json
-{"ret":200,"data":"{"98470005":{"auto":"1","basetype":"1","answerbody1":"B","pid":"98470005"},"98470007":{"auto":"1","basetype":"1","answerbody1":"A","pid":"98470007"},"98470008":{"auto":"1","basetype":"1","pid":"98470008"},"98470009":{"auto":"1","basetype":"1","pid":"98470009"},"98470010":{"auto":"1","basetype":"1","pid":"98470010"},"98470011":{"auto":"1","basetype":"1","pid":"98470011"},"98470012":{"auto":"1","basetype":"1","pid":"98470012"},"98470013":{"auto":"1","basetype":"1","pid":"98470013"},"98470014":{"auto":"1","basetype":"2","answerbody1":"","pid":"98470014"},"98470015":{"auto":"1","basetype":"2","answerbody1":"","pid":"98470015"},"98470016":{"auto":"1","basetype":"2","answerbody1":"","pid":"98470016"},"98470017":{"auto":"1","basetype":"2","answerbody1":"","pid":"98470017"},"98470019":{"auto":"2","basetype":"3","answerbody1":"","pid":"98470019"},"98470020":{"auto":"2","basetype":"3","answerbody1":"","pid":"98470020"},"98470021":{"auto":"2","basetype":"3","answerbody1":"","pid":"98470021"},"98470022":{"auto":"2","basetype":"3","answerbody1":"","stu_answer_src":"60c56cd0efe63.jpg","stu_radio_src":"","stu_video_src":"","pid":"98470022"},"98470023":{"auto":"2","basetype":"4","answerbody1":"","pid":"98470023"}}","msg":""}
+
 ```
