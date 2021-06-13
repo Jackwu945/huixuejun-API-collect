@@ -26,6 +26,7 @@
 
 **十分感谢 @SocialSisterYi 的 [api文档](https://github.com/SocialSisterYi/bilibili-API-collect) 给予我的灵感和强硬的技术支持,可以说没有他的文档,就没有如今写该文档的我!**  
 **同时,该文档的排版和写法完全借鉴了上方文档.你们(..或者说只有我看)喜欢的话可以去捧场!**  
+本文档在gitee有[备份](https://gitee.com/jackwu945/huixuejun-API-collect)
   
 ## Made by [JackWu](https://github.com/Jackwu945)
 **This project is for EVERYONE to use.**  
