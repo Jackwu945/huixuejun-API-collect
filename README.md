@@ -12,6 +12,7 @@
 1. [引言,有关慧学君api的一些通用规律和注意事项](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)  
 2. [登录](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/login/login.md)  
 3. [资源](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/resource/res.md)
-4. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md)
-5. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md)
-6. 更多方法正在添加中.....
+4. [研讨任务](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/discuss/discuss.md)
+5. [查看随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/lookanswer.md)
+6. [回答随测](https://github.com/Jackwu945/huixuejun-API-collect/tree/main/test/giveanswer.md)
+7. 更多方法正在添加中.....
