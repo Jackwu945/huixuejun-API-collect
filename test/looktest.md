@@ -45,8 +45,8 @@ set列表内元素是字典,字典内容:
 |'score'|str|分数||
 |'titlename'|str|题目说明||  
 
-# 获取答题记录
->https://hs.huixuejun.com/hs99/public/?service=App.Task.GetParseLogInfo
+# 获取试卷图片
+>https://hs.huixuejun.com/hs98/public/?service=App.Task.GetTestResource
 
 使用的请求方法:POST  
 认证方式：Cookie  
@@ -55,29 +55,39 @@ set列表内元素是字典,字典内容:
 
 | 参数名      | 类型 | 内容             |  备注             |
 | ----------- | ---- | ---------------- |  ---------------- |
-| token | str  | 当前登录的token(通讯适配符)                | [token获取方式详见引言部分](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)        |
+| token | str  | 当前登录的token(通讯适配符)            | [token获取方式详见引言部分](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)    |
 | task_id    | str  | 任务id     | 任务id |
 
 **json回复：**  
 根对象:  
 | 字段        | 类型 | 内容                | 备注 |
 | ----------- | ---- | ------------------- | ---- |
-| code | num  | 返回值 | 200:成功|
+| ret | num  | 返回值 | 200:成功|
 | msg | str  | 错误信息 | 没有这项即成功,有msg则失败 |
 | data | list  | 正文 | |  
 
 data对象  
 | 字段        | 类型 | 内容                | 备注 |
 | ----------- | ---- | ------------------- | ---- |
-| 一串数字 | num  | 题目号 | 使用request处理可能会报错?|
-| auto | str  | 是否自动批改(疑) | 1:自动批阅<br />2:手动批阅 |
-| basetype | str  | 题目类型(疑) | 1:客观题 (其他研究中) |
-| answerbody1 | str  | 客观题选择的答案 | 就是选项的字母<br />主观题则是学生输入的文字 **(推测)** |
-| stu_answer_src | str  | 学生的主观题图片回答 | 在服务器中的路径 |
-| stu_radio_src/stu_video_src | str  | 学生的录音/录像 | 同样是路径 |
-| pid | str  | 进程id | 不知道有啥用(雾) |
+| 一串数字 | num  | 图片地址 | |
+| list | list  | 图片地址列表 | |
 
- 
+嵌套的字典内的一串数字对象  
+| 字段        | 类型 | 内容                | 备注 |
+| ----------- | ---- | ------------------- | ---- |
+| filename | str  | 文件名 |  |
+| is_pic | str  | 是不是图片 | |
+| prev_url | str  | 完整地址 |  |
+| save_url | str  | 主机内地址 | 砍掉了前面的一二三级域名 |  
+
+list内容:  
+| 字段        | 类型 | 内容                | 备注 |
+| ----------- | ---- | ------------------- | ---- |
+| 'task_id' | str  | 任务id |  |
+| 'title' | str  | 随测名 | |
+| 'type' | str  | 图片类型 ||
+| uri | str  | 图片地址 | |  
+
 **Eg:**
 工事中
 ```shell
