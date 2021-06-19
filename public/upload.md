@@ -20,7 +20,7 @@
 | msg | str  | 错误信息 | 没有这项即成功,有msg则失败 |
 | data | str  | 图片名 | |  
 
-未上传墙,图片一般会保存在 https://hs.huixuejun.com/hs100/public/tmpsource/文件返回的data值 中,在研讨或随测的最后上传需要它的名字.
+未上传前,图片一般会保存在 https://hs.huixuejun.com/hs100/public/tmpsource/文件返回的data值 中,在研讨或随测的最后上传需要它的名字.
  
 **Eg:**
 要上传一个takagi
