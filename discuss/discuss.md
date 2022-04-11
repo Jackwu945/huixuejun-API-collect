@@ -1,6 +1,6 @@
 以下排版参考了 @SocialSisterYi 的 [api文档](https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/login/login_action/password.md)
 # 获得研讨任务信息
->https://hs.huixuejun.com/hs98/public/?service=App.Task.GetStuDisscuss
+>https://hs.huixuejun.com/hs105/public/?service=App.Task.GetStuDisscuss
 
 使用的请求方法:POST  
 认证方式：Cookie  
