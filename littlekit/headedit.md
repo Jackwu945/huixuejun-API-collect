@@ -10,7 +10,6 @@
 | 参数名      | 类型 | 内容             |  备注             |
 | ----------- | ---- | ---------------- |  ---------------- |        
 | head    | str  | 头像链接     | 真的可以上传"外链" |
-| token | str  | 当前登录的token(通讯适配符)                | [token获取方式详见引言部分](https://github.com/Jackwu945/huixuejun-API-collect/blob/main/intro/introduction.md)        |
 
 **json回复：**  
 根对象:  
